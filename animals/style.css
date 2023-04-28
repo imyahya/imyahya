@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto','Gloock', sans-serif;
+  margin: 0;
+  background-color: #FDFDFA;
+}
+
+/* header section  */
+
+h1 {
+  text-align: center;
+  font-family: 'Gloock', serif;
+}
+
+a:link{
+  color: purple;
+  }
+a:visited{
+  color: purple;
+  }
+a:hover{
+  color: blue;
+  }
+a:active{
+  color: black;
+  }
+  
+
+/*  Navigation Bar */
+nav {
+  background-color: #514700;
+  /* background-color: #4A381C; */
+  /* border-top: 2px solid #198023;
+  border-bottom: 2px solid #198023; */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  nav li {
+    display: inline;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 30px;
+  }
+  nav a:link {
+    color: #FDFDFA;
+  }
+  nav a:visited {
+    color: #FDFDFA;
+  } 
+  nav a:hover {
+    color:#FDFDFA;
+  }
+  nav a:active {
+    color:#FDFDFA;
+  }
+
+/* main section */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+h2 {
+  font-family: 'Gloock', serif;
+}
+
+.hero-img {
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+.mid-main {
+  margin: 10px;
+  padding: 0px;
+}
+.main-p {
+color: #443F47;
+}
+/* Photo gallery  */
+
+.gallery .preview{
+  width:100%;
+  height:auto;
+
+}
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height:75px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+  border-radius: 10px;
+}
+
+
+/* Font awesome icons */
+
+.fa {
+color: #514700;
+font-size: 5em;
+}
+
+footer {
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  background-color: #514700;
+  color: #FDFDFA;
+  font-size: 1em;
+  
+}
+footer .col-sm-6 {
+  padding: 30px;
+}
+
+footer .fa {
+  font-size: 2em;
+  color: #FDFDFA;
+  display: block;
+ padding-bottom: 10px;
+}
+footer .fa:hover {
+  text-decoration:underline;
+}
+
+footer .col-sm-12 {
+  background-color: black
+  
+}
+
+.p-copy {
+  text-align: center;
+  color: #FDFDFA;
+  padding: 5px;
+  
+}
+  
+  /*CSS without a media query--applies to all sizes unless overridden*/
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+  font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+  font-size: 1.5em;
+}
+}

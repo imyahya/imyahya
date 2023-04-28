@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto','Gloock', sans-serif;
+  margin: 0;
+  background-color: #F0F0F2;
+}
+
+/* header section  */
+
+h1 {
+  text-align: center;
+  font-family: 'Gloock', serif;
+  color: #4C2C1D;
+}
+
+a:link{
+  color: #F0F0F2;
+  }
+a:visited{
+  color: #F0F0F2;
+  }
+a:hover{
+  color: #F0F0F2;
+  }
+a:active{
+  color: black;
+  }
+  
+
+/*  Navigation Bar */
+nav {
+  background-color: #DDCEC1;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  nav li {
+    display: inline;
+  }
+  nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    
+  }
+  nav a:link {
+    color: #4C2C1D;
+  }
+  nav a:visited {
+    color: #4C2C1D;
+  } 
+  nav a:hover {
+    color: #4C2C1D;
+  }
+  nav a:active {
+    color:#D9C1AE;
+  }
+
+/* main section */
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+h2 {
+  font-family: 'Gloock', serif;
+}
+
+.home-hero {
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #4C2C1D;
+  padding: 10px 10px 10px 30px;
+
+}
+
+blockquote{
+  background-color: #E7E1DF;
+  border-left: 10px solid #4C2C1D;
+  padding: 30px;
+  margin: 20px;
+}
+
+.block-a {
+  color: #4C2C1D;
+}
+
+.block-a:link {
+  color: black;
+}
+.block-a:visited {
+  color: black;
+} 
+.block-a:hover {
+  color: black;
+}
+.block-a:active {
+  color: #4C2C1D;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.img-h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: #4C2C1D;
+}
+/* Font awesome icons */
+
+.fa {
+color: #F0F0F2;
+font-size: 5em;
+}
+
+footer {
+  background-color: #4C2C1D;
+  text-align: center;
+  padding: 10px;
+  padding-top: 80px;
+  margin-top: 50px;
+  
+}
+
+.p-copy {
+  color: #F0F0F2;
+  padding-top: 20px;
+}
+  
+  /*CSS without a media query--applies to all sizes unless overridden*/
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+  font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+  font-size: 1.5em;
+}
+img {
+display: block;
+margin: 0 auto;
+}
+
+h2, .hero-h3 {
+  color: #E7E1DF;
+  background-color: #4C2C1D;
+  display: inline-block;
+  box-sizing:content-box;
+}
+
+}

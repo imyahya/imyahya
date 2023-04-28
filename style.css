@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto','Gloock', sans-serif;
+  margin: 0;
+  background-color: white;
+  /* text-align: center; */
+}
+
+
+
+
+/* header section  */
+
+
+
+/* a:link{
+  color: purple;
+  }
+a:visited{
+  color: purple;
+  }
+a:hover{
+  color: blue;
+  }
+a:active{
+  color: black;
+  } */
+  
+
+.logo{
+  margin: 0 auto;
+  display:block;
+}
+    
+
+/*  Navigation Bar */
+nav {
+  background-color: #26bd35;
+ 
+
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link {
+  color: white;
+}
+nav a:visited {
+  color: white;
+} 
+nav a:hover {
+  color:white;
+}
+nav a:active {
+  color:#198023;
+}
+
+/* main section */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+h2 {
+  font-family: 'Gloock', serif;
+  text-align: center;
+}
+
+/* form, table {
+  margin: 0 auto;
+} */
+
+
+/* Home page CSS */
+
+h2 {
+  text-align: left;
+}
+
+.homepageimg {
+  border-radius: 10px;
+ margin: 10px 20px;
+  height: 400px;
+}
+
+.home-row-1 {
+  margin-bottom: 50px;
+}
+
+.home-row-2 {
+  margin-bottom: 50px;
+}
+
+.home-row-3 {
+  margin-bottom: 50px;
+}
+
+.fa {
+  font-size: 40px;
+  color: #26bd35;
+  padding: 10px;
+}
+
+.home-menu {
+  padding: 30px;
+}
+
+.home-menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #26bd35;
+  color: white;
+  border-radius: 5px;
+}
+
+.home-menu a:hover {
+background-color: white;
+color: #26BD35;
+border: 2px solid #26BD35;
+}
+
+
+.home-row-3 table {
+  padding: 30px;
+}
+/* Resume page CSS */
+
+.resume-h2 {
+  color: #26bd35;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.resume-hr {
+ background-color: #26bd35;
+  height: 2px;
+  box-shadow: none;
+}
+
+.resume-page {
+  max-width: 800px;
+}
+
+/* Table CSS */
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid #26BD35;
+  padding: 5px 10px;
+  
+}
+
+th {
+  background-color: #26bd35;
+  color: white;
+}
+
+br {
+  clear: left;
+ }
+ 
+
+/* Form CSS */
+
+.google-form {
+  margin-bottom: 90px;
+ 
+}
+
+ form {
+   margin-top: 30px;
+  display: inline-block;
+
+ }
+
+label  {
+   /* float: left;
+  width: 8em;  */
+  padding-bottom: 10px;
+  color: rgb(104, 101, 101); */
+  
+}
+
+input, textarea {
+  margin-bottom: .5em;
+  display: block;
+
+}
+input[type=text], [type=email], [type=tel]  {
+border: 3px solid lightgray;
+border-radius: 5px;
+padding: 5px 20px;
+font-size: 15px;
+}
+
+input[type=tel] {
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  display: block;
+  background-color: #26bd35;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #198023;
+}
+
+textarea {
+  font-family: sans-serif;
+  border: 3px solid lightgray;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 15px;
+
+
+}
+
+/* Portfolio page */
+.portfolio-img img {
+width: 500px;
+padding: 30px;
+
+}
+
+
+
+/* javascript page */
+
+.js-a {
+  text-decoration: none;
+  color: black;
+}
+.js-a:link{
+  color: purple;
+  }
+.js-a:visited{
+  color: black;
+  }
+.js-a:hover{
+  text-decoration: underline;
+  }
+.js-a:active{
+  color: black;
+  }
+
+ 
+
+footer {
+  text-align: center;
+  background-color: #807c7c;
+  color: #FBFBFB;
+  padding: 50px 80px 50px 80px;
+  
+}
+
+.footer1000 {
+  text-align: left;
+}
+
+
+.footer-icons a {
+  text-decoration: none;
+}
+
+.footer-icons a:link {
+  color: #FBFBFB;
+}
+.footer-icons a:visited {
+  color: #FBFBFB;
+} 
+.footer-icons a:hover {
+  color:#FBFBFB;
+ text-decoration: underline;
+ text-decoration-color: #26BD35;
+}
+.footer-icons a:active {
+  color:#FBFBFB;
+
+}
+
+.footer-logo{
+  text-decoration: none;
+}
+
+.footer-logo a:link {
+  color: #FBFBFB;
+}
+.footer-logo a:visited {
+  color: #FBFBFB;
+} 
+.footer-logo a:hover {
+  color:#FBFBFB;
+ text-decoration: underline;
+ text-decoration-color: #26BD35;
+}
+.footer-logo a:active {
+  color:#FBFBFB;
+
+}
+
+.footer-bottom {
+  
+  padding: 10px 10px;
+  width: 100%;
+}
+
+
+
+/* Youtube Video in Multimedia CSS */
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+  /*CSS without a media query--applies to all sizes unless overridden*/
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+  font-size: 1.8em;
+}
+
+.google-form {
+  width: 90%;
+  height: 1100px;
+  margin-bottom: 50px;
+}
+
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+  font-size: 1.5em;
+}
+
+.portfolio-img img {
+  width: 400px;
+  padding: 30px;
+  
+  }
+
+  .google-form {
+    width: 90%;
+    height: 1100px;
+    margin-bottom: 60px;
+  }
+
+
+}
+
+
