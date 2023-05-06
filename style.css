@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Roboto','Gloock', sans-serif;
-  margin: 0;
   background-color: white;
   /* text-align: center; */
 }
@@ -12,20 +11,6 @@ body {
 
 /* header section  */
 
-
-
-/* a:link{
-  color: purple;
-  }
-a:visited{
-  color: purple;
-  }
-a:hover{
-  color: blue;
-  }
-a:active{
-  color: black;
-  } */
   
 
 .logo{
@@ -37,7 +22,6 @@ a:active{
 /*  Navigation Bar */
 nav {
   background-color: #26bd35;
- 
 
 }
 
@@ -71,16 +55,13 @@ nav a:active {
 main {
     max-width: 1200px;
     margin: 0 auto;
+    
   }
 
 h2 {
   font-family: 'Gloock', serif;
   text-align: center;
 }
-
-/* form, table {
-  margin: 0 auto;
-} */
 
 
 /* Home page CSS */
@@ -151,17 +132,19 @@ border: 2px solid #26BD35;
 
 .resume-page {
   max-width: 800px;
+  margin-bottom: 30px;
 }
 
 /* Table CSS */
 
 table {
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 td, th {
   border: 2px solid #26BD35;
-  padding: 5px 10px;
+  padding: 10px 100px;
   
 }
 
@@ -238,6 +221,10 @@ font-size: 15px;
 }
 
 /* Portfolio page */
+.portfolio-page {
+  margin: 20px;
+}
+
 .portfolio-img img {
 width: 500px;
 padding: 30px;
@@ -323,7 +310,7 @@ footer {
 .footer-bottom {
   
   padding: 10px 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 
@@ -381,6 +368,12 @@ h1{
     width: 90%;
     height: 1100px;
     margin-bottom: 60px;
+  }
+
+  td, th {
+    border: 2px solid #26BD35;
+    padding: 10px 50px;
+    
   }
 
 
